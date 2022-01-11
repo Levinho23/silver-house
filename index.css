@@ -1,0 +1,64 @@
+.title{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+}
+.menu ul li{
+   padding: 40px;
+    list-style: none;
+}
+.menu ul li a{
+    color: #bab9b9;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.menu ul li a:hover{
+    color: #4581b7;
+
+}
+.header{
+    text-align: center;
+}
+
+.section{
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between ;
+    padding-bottom: 30px;
+}
+
+.section .left{
+    width: 740px;
+    background: #f0f0f0;
+}
+
+.section .left h3{
+    padding-top: 50px;
+    padding-left: 40px;
+    color:#4581b7;
+}
+.section .left .text{
+    padding-top: 25px;
+    padding-left: 40px;
+    padding-right: 95px;
+    padding-bottom: 65px;
+    color:#9d9d9d;
+}
+.section .right{
+    width: 350px;
+    background: #f0f0f0;
+}
+.section .right .contact{
+    padding-top: 50px;
+    padding-left: 47px;
+    color: #4581b7;
+}
+.section .right .text{
+    color: #9d9d9d;
+}
